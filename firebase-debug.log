@@ -1,0 +1,36 @@
+[debug] [2017-09-16T20:54:07.211Z] ----------------------------------------------------------------------
+[debug] [2017-09-16T20:54:07.214Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-09-16T20:54:07.214Z] CLI Version:   3.11.0
+[debug] [2017-09-16T20:54:07.214Z] Platform:      darwin
+[debug] [2017-09-16T20:54:07.214Z] Node Version:  v6.11.3
+[debug] [2017-09-16T20:54:07.215Z] Time:          Sat Sep 16 2017 16:54:07 GMT-0400 (EDT)
+[debug] [2017-09-16T20:54:07.215Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-16T20:54:07.226Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-16T20:54:07.226Z] > authorizing via signed-in user
+[debug] [2017-09-16T20:54:07.228Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-16T20:54:07.228Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/tHR4k0I8Y17Vc5QG8y4jLaJ1ujqX59ivX34ofBNRooQ',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Sep 16 2017 16:54:07 GMT-0400 (EDT)
+[debug] [2017-09-16T20:54:07.446Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-16T20:54:07.461Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/eyewatch-4b997  
+ Sat Sep 16 2017 16:54:07 GMT-0400 (EDT)
+[debug] [2017-09-16T20:54:07.764Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-16T20:54:07.765Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/eyewatch-4b997/tokens  
+ Sat Sep 16 2017 16:54:07 GMT-0400 (EDT)
+[debug] [2017-09-16T20:54:08.037Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/saba/Google Drive/UWaterloo/2A/HackTheNorth'...
+[info] 
+[debug] [2017-09-16T20:54:08.040Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/eyewatch-4b997  
+ Sat Sep 16 2017 16:54:08 GMT-0400 (EDT)
+[debug] [2017-09-16T20:54:08.266Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-16T20:54:08.266Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/584331263290/clients/_:getWebAppConfig  
+ Sat Sep 16 2017 16:54:08 GMT-0400 (EDT)
+[debug] [2017-09-16T20:54:08.570Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
